@@ -1,0 +1,9 @@
+id: "unit_00"
+name: "Courier Zero"
+role: "Data Smuggler"
+visual_layers:
+  - base: "anatomical sketch, hooded figure"
+  - decal: "glitch strip, left chest"
+  - effect: "fragmented light bloom"
+  - badge: "RPRL barcode tag"
+aesthetic_notes: "neutral expression, standing against static-filled city wall"

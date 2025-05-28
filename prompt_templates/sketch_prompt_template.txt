@@ -1,0 +1,3 @@
+{role} with {visual_layers[0]}, {visual_layers[1]}, and {visual_layers[2]}. 
+Minimal background, grayscale, 500x500px, cyberpunk, glitchcore style. 
+Mood: stoic, dissociated. Model: DreamShaper 8.
