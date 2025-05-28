@@ -4,7 +4,7 @@ All concept assets, generative prompts, and image derivatives within this reposi
 
 ## Ownership
 Entity: RPRLogistics  
-Maintainer: [Your Name or Alias]  
+Maintainer: Roman Albedo
 Date of Creation: May 2025
 
 ## Assets Covered
