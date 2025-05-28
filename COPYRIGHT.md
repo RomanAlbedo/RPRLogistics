@@ -3,9 +3,9 @@
 All concept assets, generative prompts, and image derivatives within this repository are protected intellectual property.
 
 ## Ownership
-Entity: RPRLogistics  
-Maintainer: Roman Albedo
-Date of Creation: May 2025
+Entity: RPRLogistics;
+Maintainer: Roman Albedo;
+Date of Creation: May 2025;
 
 ## Assets Covered
 - YAML character data
