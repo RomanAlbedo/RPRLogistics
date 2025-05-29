@@ -1,0 +1,49 @@
+model: dreamshaper-8
+
+name: Overseer
+hook: SURVEILLED
+accent_color: "#F4F4F4"
+accent_name: Glitch White
+
+core_colors:
+    - "#CC0000"  # Red Pill Crimson
+    - "#1A1A1A"  # Dead Terminal Black
+
+visual:
+  description: Tall, lean humanoid figure with a blank HUD-like face and minimalist bureaucratic attire
+  grayscale_prompt: >
+    tall lean humanoid figure with upright posture, blank oval face, wearing minimal bureaucratic chestplate or sash
+  color_prompt: >
+    tall lean humanoid AI with mirrored faceplate showing flickering HUD data,
+    minimalist bureaucratic uniform elements like a sash or badge,
+    standing upright in a neutral yet assertive stance, surrounded by floating red lens drones
+
+background:
+  description: Surveillance grid with data trees and glitch bloom
+  grayscale_prompt: >
+    stark abstract environment with branching tree-like data structures,
+    geometric grid overlays, empty sterile space
+  color_prompt: >
+    sterile overexposed environment with glitch white tones, data tree structures branching like neural maps,
+    digital bloom effects, red scan grid overlays and bureaucratic iconography floating in background
+
+symbolic_object:
+  description: The Overseer's own serpentine CCTV-tipped tentacles—embodiments of constant surveillance
+  grayscale_prompt: >
+    coiled mechanical tentacles emerging from humanoid figure, each ending in a blocky CCTV-like head,
+    arranged like a crown or halo of scanners
+  color_prompt: >
+    serpentine mechanical tentacles tipped with glowing red-lensed CCTV camera heads,
+    extending from the Overseer's back and shoulders like invasive limbs,
+    some scanning, some poised in strike-like curves, symbolizing omnidirectional surveillance
+
+effects:
+  description: Red scanlines, glitch trails from tentacles, surveillance glyphs
+  grayscale_prompt: >
+    soft scanlines, faint motion trails from tentacles, floating simple glyph shapes
+  color_prompt: >
+    red horizontal scanlines across frame, digital noise, tentacle glitch trails in motion,
+    floating surveillance glyphs and scan warnings, faint tracking overlays
+
+rear_print:
+  description: Glitch data bloom with names tagged 'noncompliant', bureaucratic audit overlays

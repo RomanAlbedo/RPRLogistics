@@ -1,0 +1,45 @@
+model: dreamshaper-8
+
+name: Wrecker
+hook: COLLECTIVIZED
+accent_color: "#E0DDD5"
+accent_name: Concrete Beige
+
+core_colors:
+  - "#CC0000"  # Red Pill Crimson
+  - "#1A1A1A"  # Dead Terminal Black
+
+visual:
+  description: Rogue fighter mid-swing with powered armor and sledgehammer
+  grayscale_prompt: >
+    heavily armored figure mid-swing with hammer, hunched pose, bulked-up silhouette
+  color_prompt: >
+    industrial rogue fighter in reinforced armor, sledgehammer mid-swing,
+    shattered drone beneath feet, smoke trails from shoulder vents, aggressive impact pose
+
+background:
+  description: Rubble-strewn industrial collapse with graffiti
+  grayscale_prompt: >
+    broken tech, concrete blocks, scattered wreckage and wall markings
+  color_prompt: >
+    collapsing industrial zone in Concrete Beige tones, union graffiti on cracked walls,
+    burned-out tech and smoke haze around rubble
+
+symbolic_object:
+  description: Cracked dollar sign and corroded currency symbol
+  grayscale_prompt: >
+    large fractured symbol (S-shape or circle), breaking in half
+  color_prompt: >
+    cracked metallic dollar sign, corroded currency icon embedded in rubble,
+    mechanical damage textures and oxidation
+
+effects:
+  description: Debris field, sparks, and hammer swing blur
+  grayscale_prompt: >
+    scattered debris, faint arc motion blur from swing, light fragments
+  color_prompt: >
+    debris clouds, smoke plumes, motion blur from hammer,
+    sparks flying from impact zone in chaotic arc
+
+rear_print:
+  description: Dismantled corporate logo, propaganda slogan, industrial manifesto fragments
