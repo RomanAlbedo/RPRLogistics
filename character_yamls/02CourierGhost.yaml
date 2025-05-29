@@ -1,44 +1,27 @@
-model: dreamshaper-8
-
-name: Courier Ghost
-hook: DISPATCHED
+id: "unit_02"
+name: "Courier Ghost"
+status: "DISPATCHED"
 accent_color: "#00FF88"
-accent_name: Command Line Green
-
+accent_name: "Command Line Green"
 core_colors:
   - "#CC0000"  # Red Pill Crimson
   - "#1A1A1A"  # Dead Terminal Black
 
-visual:
-  description: Agile stealth courier mid-run with vanishing limbs and glowing data satchel
-  grayscale_prompt: >
-    figure in mid-run with slight pixelated limb trails, minimal stealth clothing, carrying a rectangular satchel
-  color_prompt: >
-    anime-style stealth courier mid-run, glitch effects obscuring limbs, black ops attire,
-    glowing Command Line Green data satchel, dynamic motion with light trails
+visual_layers:
+  - base: "Agile stealth courier mid-run with vanishing limbs and glowing data satchel"
+  - background: "Abstract digital tunnel with encrypted glyphs and motion blur"
+  - symbolic_object: "Glowing data satchel radiating encrypted lines"
+  - effects: "Glitch streaks and kinetic static trails"
+  - rear_print: "Delivery manifest with corrupted map overlays and encrypted route schematic"
 
-background:
-  description: Abstract digital tunnel with encrypted glyphs and motion blur
-  grayscale_prompt: >
-    abstract corridor with tunnel depth and motion blur, scattered glyph-like symbols, blurred edges
-  color_prompt: >
-    digital tunnel scene with command line green hue, motion blur and encrypted glyphs,
-    pixel particles trailing behind, soft abstract grid flow
-
-symbolic_object:
-  description: Glowing data satchel radiating encrypted lines
-  grayscale_prompt: >
-    rectangular bag emitting faint concentric lines or pixel aura
-  color_prompt: >
-    glowing satchel outlined with pixel glow and encrypted signal lines,
-    emitting Command Line Green light pulses, central to the design
-
-effects:
-  description: Glitch streaks and kinetic static trails
-  grayscale_prompt: >
-    faint pixel drift, motion streaks behind limbs, soft static interference
-  color_prompt: >
-    glitch streaks, pixel drift on limbs, kinetic static pulses, green light trails in motion
-
-rear_print:
-  description: Delivery manifest with corrupted map overlays and encrypted route schematic
+prompts:
+  grayscale:
+    - "figure in mid-run with slight pixelated limb trails, minimal stealth clothing, carrying a rectangular satchel"
+    - "abstract corridor with tunnel depth and motion blur, scattered glyph-like symbols, blurred edges"
+    - "rectangular bag emitting faint concentric lines or pixel aura"
+    - "faint pixel drift, motion streaks behind limbs, soft static interference"
+  color:
+    - "anime-style stealth courier mid-run, glitch effects obscuring limbs, black ops attire, glowing Command Line Green data satchel, dynamic motion with light trails"
+    - "digital tunnel scene with command line green hue, motion blur and encrypted glyphs, pixel particles trailing behind, soft abstract grid flow"
+    - "glowing satchel outlined with pixel glow and encrypted signal lines, emitting Command Line Green light pulses, central to the design"
+    - "glitch streaks, pixel drift on limbs, kinetic static pulses, green light trails in motion"
